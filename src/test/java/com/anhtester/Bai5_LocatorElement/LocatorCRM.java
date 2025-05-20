@@ -16,9 +16,11 @@ public class LocatorCRM {
     public static String menuCustomer = "//span[normalize-space()='Customer']";
     public static String iconProfile = "//li[contains(@class,'header-user-profile')]";
 
-    //Customer page
     public static String totalInvoicesAwaitingPayment = "(//span[normalize-space()='Invoices Awaiting Payment']/parent::div)/following-sibling::span";
     public static String totalConvertedLeads = "(//span[normalize-space()='Converted Leads']/parent::div)/following-sibling::span";
     public static String totalProjectsInProgress = "(//span[normalize-space()='Projects In Progress']/parent::div)/following-sibling::span";
     public static String totalTasksNotFinished = "(//span[normalize-space()='Tasks Not Finished']/parent::div)/following-sibling::span";
+
+    //Customer page
+
 }
