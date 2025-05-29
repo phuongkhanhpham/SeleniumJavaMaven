@@ -13,7 +13,7 @@ public class ThuocTinhHTML {
         WebDriver driver; // Khởi tạo 1 biến driver có kiểu WebDriver
         driver = new ChromeDriver(); // Khai báo trình duyệt Chrome, rồi gán giá trị vào bến driver
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //Set thời gian chờ 1 element xuất hiện
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //Set thời gian chờ 1 element xuất hiện, hết thời gian chưa tìm ra thì báo lỗi
 
         // Code auto thao tác
         driver.get("https://crm.anhtester.com/admin/authentication");
