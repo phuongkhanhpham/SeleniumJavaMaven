@@ -1,7 +1,5 @@
 package com.anhtester.Bai7_WebDriver;
 
-import com.anhtester.Bai5_LocatorElement.LocatorCRM;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
